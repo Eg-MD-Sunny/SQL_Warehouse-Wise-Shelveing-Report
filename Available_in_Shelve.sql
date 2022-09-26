@@ -44,9 +44,3 @@ Group By    CAST(dbo.ToBdt(tt.CreatedOn) as date) ,
             dbo.tsn(ToState),
             e.BadgeId, e.FullName, d.DesignationName, e.WarehouseId
 Order by 1,2
-
-
-
---warehouse ar sate employee
-
---select top 1* from Thing 
